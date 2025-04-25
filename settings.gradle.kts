@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "TestingSubModule"
 include(":app")
 include(":commonUtils")
+project(":commonUtils").projectDir = File(rootProject.projectDir, "commonUtils")

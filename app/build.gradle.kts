@@ -32,7 +32,6 @@ android {
 }
 
 dependencies {
-//    implementation project(path: ':string-converter')
     implementation(project(":commonUtils"))
     implementation(libs.appcompat)
     implementation(libs.material)
